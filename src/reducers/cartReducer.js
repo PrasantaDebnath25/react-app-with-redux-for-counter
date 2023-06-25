@@ -17,7 +17,7 @@ export const cartReducer = (state = initialState, action) => {
         ...state,
         numOfItems: state.numOfItems - 1,
       };
-      case RESET_ITEM:
+    case RESET_ITEM:
       return {
         ...state,
         numOfItems: 0,

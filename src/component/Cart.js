@@ -15,7 +15,7 @@ const Cart = () => {
         }}
         className="green"
       >
-        Add Item to Cart
+        Add Item
       </button>
       <button
         disabled={state.numOfItems > 0 ? false : true}
